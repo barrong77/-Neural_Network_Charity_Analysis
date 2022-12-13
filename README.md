@@ -33,16 +33,22 @@ The steps taken to try and increase model performance
 
 Attempt 1: Removed additional feature, that is the 'USE_CASE' column. Rest of the model components stayed the same, however model accuracy went down to 63%.
 
+![DropEIN](https://user-images.githubusercontent.com/108476566/207380004-6eb554d8-8098-4761-bf13-f7945356ea13.png)
+
+![Evaluatetestdata](https://user-images.githubusercontent.com/108476566/207380457-e90ac998-3601-413f-bdf7-3d2c3423430f.png)
 
 
+Attempt 2: Adding Additional neurons to hidden layers and additional hidden layers are added. 
 
-Attempt 2: Adding Additional neurons to hidden layers and additional hidden layers are added. The accuracy went down again, this time it was 53%.
+![DefineModelNodes](https://user-images.githubusercontent.com/108476566/207381027-d1d2ed06-c9bb-4bad-ad4b-54a7f2db8a69.png)
 
-
+![Modelloss](https://user-images.githubusercontent.com/108476566/207381412-f6ba3d93-4d21-4804-803d-f293db2eadda.png)
 
 
 Attempt 3: Changing activation function of output layer from "sigmoid" to "tanh." The accuracy of the model went down even more to 50%.
+![attempt3](https://user-images.githubusercontent.com/108476566/207381719-090a4e35-c213-46dd-a7bf-fe1c2c65631e.png)
 
+![Attempt3results](https://user-images.githubusercontent.com/108476566/207381993-db2faf16-135b-4a83-87b6-6de99cac89ca.png)
 
 
 
